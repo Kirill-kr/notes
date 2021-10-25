@@ -1,0 +1,78 @@
+NAVIGATING
+"j" go down
+"k" go upp
+"h" go left
+"l" go right
+"$" to go to the end of the line 
+"0"(zero) go the the start of the line
+
+ctrl+d scroll down
+ctrl+u scroll upp
+10G go to line 10
+
+"gg" go to the start of the file
+"G" go to the end of the file
+"w" move cursor to the next word
+"b" move cursor to the begining of the current word
+"e" move cursor to the end of the word
+
+"2w" move cursor forward two word
+"5b" move cursor to the beginig of the word five times (5 words)
+"fb" go to char "b" on the line
+"f2" go to "2" on the line
+
+"?" search upp from the cursor 
+"/" search down from the cursor
+"*" search for word down
+"#" search for word upp
+
+"mx" put a bookmart (marker) where "x" marker name
+"'x" go back to bookmark (marker) where "x" marker name
+
+INSERTING
+"i" start insert mode efter the cursor 
+"I" go to the start of the line and start insert mode
+"a" to start insert mode above the cursor 
+"A" to start insert mode in the end of the line. 
+"O" create new line above the current line and start insert mode on the start of the line 
+"o" create new line after current line and start insert mode in the start of the line
+
+EDITING
+"x" cut a sing"x" remove a sing or the marked text
+"p" paste coped or cutted text or sign efter cursor
+"P" paste after cursor
+"dw" delete word 
+"u" undo
+"dd" delete line
+"2dd" delete two lines
+"r" replace a sign
+"cw" (change word) replace word with text(typing) cursor should be placed in the start of the word 
+"C" remove all text from cursor to the end of the line and enter insert mode
+"cc" remove the line enter insert mode 
+"D" delete all text from cursor to the end of the line
+"V" mark the hole line
+"y" copy or yank marked text
+"yy" copy the line
+">" tab the selection on left
+"<" tab the selection on right
+
+COMMANDS
+:noh remove highlighling (search results)
+
+MACROS
+"q1" start record the macros, there "1" is macros name
+"q" finish the record of the macros
+"@1" execute macros "1" 
+"5@1" execute macros "1" five times
+
+WORK SPACE
+ctlr+w s split window horizontally
+:split split window horizontally
+ctlr+w v split window vertically
+:vsp split window vertically
+ctrl+w l jump to splitted window on left
+ctrl+w h jump to splitted window on right
+ctrl+w j jump to splitted window below
+ctrl+w k jump to splitten window above
+ctrl+w q close splitten window
+:vsp <file_name> open new file on splitted window vertically
