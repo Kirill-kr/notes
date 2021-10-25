@@ -1,0 +1,5 @@
+tmux - start a new session
+tmux new -s [session name] - start a new session with a name
+tmux ls - list all sessions
+ctrl+b d - detach from current session
+tmux attach -t [session name] - attach specific session
